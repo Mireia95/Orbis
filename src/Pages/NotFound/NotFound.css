@@ -1,0 +1,17 @@
+.notFound {
+  margin-top: 20svh;
+  flex-direction: column;
+  color: var(--MA-colorTextSecondary);
+  font-family: var(--MA-fontSecondary);
+}
+
+.notFound > h2 {
+  font-size: 120px;
+  font-weight: 600;
+  padding: 0;
+}
+
+.notFound > p {
+  font-size: 24px;
+  font-weight: 400;
+}

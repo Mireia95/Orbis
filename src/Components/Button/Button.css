@@ -1,0 +1,15 @@
+button {
+  border-radius: var(--MA-border-radius-button);
+}
+
+button.primButt {
+  padding: var(--MA-padding-xs) var(--MA-padding-l);
+  font-size: 20px;
+  color: var(--MA-colorTertiary);
+  background-color: transparent;
+  border: 2px solid var(--MA-colorTertiary);
+}
+
+button.secButt {
+  padding: var(--MA-padding-xs) var(--MA-padding-s);
+}

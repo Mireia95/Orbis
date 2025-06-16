@@ -1,0 +1,11 @@
+.logo {
+  justify-content: flex-start;
+  color: var(--MA-colorLight);
+  font-weight: 500;
+  gap: var(--MA-gap-xs);
+}
+
+.logo > img {
+  width: 24px;
+  height: 24px;
+}

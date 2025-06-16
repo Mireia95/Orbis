@@ -1,0 +1,5 @@
+footer {
+  height: 5svh;
+  color: var(--MA-colorTextPrimary);
+  justify-content: center;
+}

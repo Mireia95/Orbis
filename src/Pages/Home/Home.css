@@ -1,0 +1,6 @@
+h1 {
+  font-family: var(--MA-fontPrimary);
+  font-size: 130px;
+  font-weight: 400;
+  color: var(--MA-colorTextPrimary);
+}

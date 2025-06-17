@@ -1,8 +1,11 @@
 header {
   width: 100%;
+  position: sticky;
+  top: 0;
   padding: var(--MA-padding-s);
   height: 5svh;
   font-family: var(--MA-fontSecondary);
+  z-index: 10;
 }
 
 nav,

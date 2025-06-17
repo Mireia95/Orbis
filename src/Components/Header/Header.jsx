@@ -1,6 +1,6 @@
-import { NavLink } from 'react-router-dom';
-import Logo from '../Logo/Logo';
-import './Header.css';
+import { NavLink } from 'react-router-dom'
+import Logo from '../Logo/Logo'
+import './Header.css'
 
 const Header = () => {
   return (
@@ -20,6 +20,16 @@ const Header = () => {
           </li>
           <li>
             <NavLink
+              to='/rovers'
+              className={({ isActive }) =>
+                isActive ? 'nav-link active' : 'nav-link'
+              }
+            >
+              Rovers
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
               to='/gallery'
               className={({ isActive }) =>
                 isActive ? 'nav-link active' : 'nav-link'
@@ -28,10 +38,20 @@ const Header = () => {
               Gallery
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to='/about'
+              className={({ isActive }) =>
+                isActive ? 'nav-link active' : 'nav-link'
+              }
+            >
+              About
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

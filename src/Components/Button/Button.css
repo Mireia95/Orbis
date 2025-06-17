@@ -6,9 +6,9 @@ button {
 button.primButt {
   padding: var(--MA-padding-xs) var(--MA-padding-l);
   font-size: 20px;
-  color: var(--MA-colorTertiary);
+  color: var(--MA-colorSecondary);
   background-color: transparent;
-  border: 2px solid var(--MA-colorTertiary);
+  border: 2px solid var(--MA-colorSecondary);
 }
 
 button.secButt {

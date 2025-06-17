@@ -2,7 +2,7 @@ h1 {
   font-family: var(--MA-fontPrimary);
   font-size: 130px;
   font-weight: 400;
-  color: var(--MA-colorTextPrimary);
+  color: var(--MA-colorSecondary);
 }
 
 .home {
@@ -11,4 +11,15 @@ h1 {
   top: 40%;
   right: 16%;
   transform: translateY(-50%);
+}
+
+.infoMars {
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 150px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
 }

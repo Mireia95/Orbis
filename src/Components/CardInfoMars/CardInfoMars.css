@@ -1,0 +1,15 @@
+.cardInfoMars {
+  border-radius: var(--MA-border-radius);
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 250px;
+  color: var(--MA-colorTextPrimary);
+  border: 1px solid var(--MA-colorSecondary);
+  padding: 20px 85px;
+  background-color: var(--MA-colorBGAlhpa);
+}
+
+.cardInfoMars > h3 {
+  font-weight: 400;
+}

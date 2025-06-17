@@ -4,13 +4,14 @@
 :root {
   /* colors */
   --MA-colorPrimary: #070604;
-  --MA-colorSecondary: RED;
-  --MA-colorTertiary: #ffc3c3;
+  --MA-colorSecondary: #ffc3c3;
+
   --MA-colorLight: #f8f8f8;
 
-  --MA-colorTextPrimary: var(--MA-colorTertiary);
+  --MA-colorTextPrimary: var(--MA-colorSecondary);
   --MA-colorTextSecondary: var(--MA-colorLight);
   --MA-colorBG: var(--MA-colorPrimary);
+  --MA-colorBGAlhpa: rgba(7, 6, 4, 0.8);
 
   /* font */
   --MA-fontPrimary: 'Orbitron', sans-serif;
@@ -45,6 +46,7 @@
   text-decoration: none;
   box-sizing: border-box;
   border: none;
+  font-family: var(--MA-fontSecondary);
 }
 
 body,

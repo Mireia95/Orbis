@@ -1,7 +1,7 @@
-import Button from '../../Components/Button/Button'
-import CardInfoMars from '../../Components/CardInfoMars/CardInfoMars'
-import Mars from '../../Components/Mars/Mars'
-import './Home.css'
+import Button from '../../Components/Button/Button';
+import CardInfoMars from '../../Components/CardInfoMars/CardInfoMars';
+import Mars from '../../Components/Mars/Mars';
+import './Home.css';
 
 const Home = () => {
   return (
@@ -19,21 +19,21 @@ const Home = () => {
         <CardInfoMars
           icon='https://res.cloudinary.com/dr2vohk2z/image/upload/v1750144892/Marsexplorer/diametro_s8ikac.png'
           title='Diameter'
-          data=''
+          data='6.779 km'
         />
         <CardInfoMars
           icon='https://res.cloudinary.com/dr2vohk2z/image/upload/v1750144892/Marsexplorer/gravedad_sm1thj.png'
           title='Gravity'
-          data=''
+          data='3,73 m/s²'
         />
         <CardInfoMars
           icon='https://res.cloudinary.com/dr2vohk2z/image/upload/v1750144892/Marsexplorer/temperatura_no502t.png'
           title='Degrees'
-          data=''
+          data='-63°C'
         />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

@@ -1,0 +1,14 @@
+.roverTab {
+  padding: var(--MA-padding-xs) var(--MA-padding-l);
+  background-color: transparent;
+  color: var(--MA-colorSecondary);
+  border-radius: 8px 8px 0px 0px;
+  border: 1px solid var(--MA-colorSecondary);
+  gap: 10px;
+  font-size: 16px;
+}
+
+.roverTab > img {
+  width: 24px;
+  height: 24px;
+}

@@ -1,7 +1,7 @@
 # Marsexplorer
 
 <div align="center">
-<img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1750230002/Marsexplorer/Preview/MarsPreviewAll_jkmu14.png" alt="desktop and mobile preview" />
+<img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1750230163/Marsexplorer/Preview/MarsPreviewAll2_pd2gnp.png" alt="desktop and mobile preview" />
 </div>
 
 ## Descripción

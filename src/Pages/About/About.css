@@ -1,0 +1,25 @@
+#about {
+  color: var(--MA-colorLight);
+  z-index: 2;
+}
+
+.logoMG {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logoMG > img {
+  width: 48px;
+}
+
+#about > p {
+  margin-bottom: 50px;
+}
+
+.tasks {
+  width: 80%;
+  flex-direction: column;
+  gap: var(--MA-gap-m);
+  align-items: flex-start;
+}

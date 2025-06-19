@@ -2,11 +2,12 @@
   border-radius: var(--MA-border-radius);
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
+  font-weight: 400;
+  gap: 8px;
   width: 250px;
   color: var(--MA-colorTextPrimary);
   border: 1px solid var(--MA-colorSecondary);
-  padding: 20px 85px;
+  padding: 16px 85px;
   background-color: var(--MA-colorBGAlhpa);
 }
 

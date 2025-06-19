@@ -1,12 +1,10 @@
-import Button from '../../Components/Button/Button';
-import CardInfoMars from '../../Components/CardInfoMars/CardInfoMars';
-import Mars from '../../Components/Mars/Mars';
-import './Home.css';
+import Button from '../../Components/Button/Button'
+import CardInfoMars from '../../Components/CardInfoMars/CardInfoMars'
+import './Home.css'
 
 const Home = () => {
   return (
     <>
-      <Mars />
       <div className='home flex'>
         <h1> MARS</h1>
         <Button
@@ -33,7 +31,7 @@ const Home = () => {
         />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

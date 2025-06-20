@@ -2,6 +2,7 @@
   padding: var(--MA-padding-xs) var(--MA-padding-m);
   border-radius: var(--MA-border-radius);
   border: 1px solid var(--MA-colorLight);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
+  background-color: var(--MA-colorBGAlhpa);
 }

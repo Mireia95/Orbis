@@ -1,0 +1,9 @@
+.logoMG {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logoMG > img {
+  width: 80px;
+}

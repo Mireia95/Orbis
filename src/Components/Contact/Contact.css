@@ -1,0 +1,14 @@
+.contact {
+  margin-bottom: var(--MA-padding-s);
+}
+
+.contact > h4 {
+  margin-top: 30px;
+  font-weight: 400;
+  margin-bottom: var(--MA-margin-s);
+}
+
+.contact > div {
+  justify-content: center;
+  gap: var(--MA-gap-s);
+}

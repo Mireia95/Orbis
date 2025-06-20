@@ -1,0 +1,5 @@
+.galleryTab {
+  z-index: 1;
+  gap: 60px;
+  justify-content: center;
+}

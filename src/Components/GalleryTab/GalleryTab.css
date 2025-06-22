@@ -3,3 +3,19 @@
   gap: 60px;
   justify-content: center;
 }
+
+#gallery {
+  width: 80%;
+  z-index: 1;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.gallery {
+  width: 100%;
+  min-height: 500px;
+  border: 1px solid var(--MA-colorSecondary);
+  border-radius: var(--MA-border-radius);
+  position: relative;
+  flex-wrap: wrap;
+}

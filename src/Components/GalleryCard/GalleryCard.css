@@ -1,0 +1,13 @@
+.card {
+  width: 200px;
+  height: 230px;
+
+  overflow: hidden;
+}
+
+.card > img {
+  object-fit: cover;
+  object-position: center;
+  max-width: 250px;
+  min-height: 100%;
+}

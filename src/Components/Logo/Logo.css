@@ -1,11 +1,10 @@
-.logo {
+.logo > a {
   justify-content: flex-start;
+  gap: var(--MA-gap-xs);
   color: var(--MA-colorLight);
   font-weight: 500;
-  gap: var(--MA-gap-xs);
 }
-
-.logo > img {
+.logo > a > img {
   width: 24px;
   height: 24px;
 }

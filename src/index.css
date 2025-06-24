@@ -4,14 +4,14 @@
 :root {
   /* colors */
   --MA-colorPrimary: #070604;
-  --MA-colorSecondary: #ffc3c3;
-
-  --MA-colorLight: #f8f8f8;
+  --MA-colorPrimaryAlpha: rgba(7, 6, 4, 0.8);
+  --MA-colorSecondary: #fff8f8;
+  --MA-colorTertiary: #f8f8f8;
 
   --MA-colorTextPrimary: var(--MA-colorSecondary);
-  --MA-colorTextSecondary: var(--MA-colorLight);
+  --MA-colorTextSecondary: var(--MA-colorTertiary);
   --MA-colorBG: var(--MA-colorPrimary);
-  --MA-colorBGAlhpa: rgba(7, 6, 4, 0.8);
+  --MA-colorBGAlhpa: var(--MA-colorPrimaryAlpha);
 
   /* font */
   --MA-fontPrimary: 'Orbitron', sans-serif;

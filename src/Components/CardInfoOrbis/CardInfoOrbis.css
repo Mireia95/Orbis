@@ -1,0 +1,36 @@
+.cardInfoOrbis {
+  border-radius: var(--MA-border-radius);
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 400;
+  gap: 5px;
+  min-width: 215px;
+  max-width: 250px;
+  color: var(--MA-colorTextPrimary);
+  border: 1px solid var(--MA-colorSecondary);
+  padding: 16px 0;
+  background-color: var(--MA-colorBGAlhpa);
+}
+
+.cardInfoOrbis > h3 {
+  font-weight: 600;
+  font-size: 16px;
+}
+.cardInfoOrbis > p {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .cardInfoOrbis > h3 {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .cardInfoOrbis > p {
+    font-weight: 200;
+    font-size: 14px;
+  }
+  .cardInfoOrbis > img {
+    width: 30px;
+  }
+}

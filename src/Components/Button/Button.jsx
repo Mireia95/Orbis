@@ -1,15 +1,12 @@
-import { useNavigate } from 'react-router-dom';
-import './Button.css';
+import './Button.css'
 
-const Button = ({ text, pathNav, className = 'secButt' }) => {
-  const navigate = useNavigate();
-
+const Button = ({ text, onClick, className = 'secButt' }) => {
   return (
-    <button className={className} onClick={() => navigate(pathNav)}>
+    <button className={className} onClick={onClick}>
       {' '}
       {text}{' '}
     </button>
-  );
-};
+  )
+}
 
-export default Button;
+export default Button

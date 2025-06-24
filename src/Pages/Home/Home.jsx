@@ -1,33 +1,34 @@
-import Button from '../../Components/Button/Button'
-import CardInfoMars from '../../Components/CardInfoMars/CardInfoMars'
+import { Link } from 'react-router-dom'
+import CardInfoOrbis from '../../Components/CardInfoOrbis/CardInfoOrbis'
 import './Home.css'
+import PlanetBG from '../../Components/PlanetBG/PlanetBG'
 
 const Home = () => {
   return (
     <>
+      <PlanetBG opacity={1} image={'orbis'} />
       <div className='home flex'>
-        <h1> MARS</h1>
-        <Button
-          text='Show gallery'
-          pathNav='/gallery'
-          className='primButt'
-        ></Button>
+        <h1> ORBIS</h1>
+        <Link to='/gallery' className='primButt'>
+          {' '}
+          Show gallery
+        </Link>
       </div>
       <div className='infoMars flex'>
-        <CardInfoMars
-          icon='https://res.cloudinary.com/dr2vohk2z/image/upload/v1750144892/Marsexplorer/diametro_s8ikac.png'
-          title='Diameter'
-          data='6.779 km'
+        <CardInfoOrbis
+          icon='https://res.cloudinary.com/dr2vohk2z/image/upload/v1750765546/Orbis/Diameter_eagrmz.png'
+          title='Diameter galaxy'
+          data='100,000 light-years'
         />
-        <CardInfoMars
-          icon='https://res.cloudinary.com/dr2vohk2z/image/upload/v1750144892/Marsexplorer/gravedad_sm1thj.png'
-          title='Gravity'
-          data='3,73 m/s²'
+        <CardInfoOrbis
+          icon='https://res.cloudinary.com/dr2vohk2z/image/upload/v1750765546/Orbis/Shooting_Stars_fm1rrn.png'
+          title='Stars per galaxy'
+          data='up to 1 trillon'
         />
-        <CardInfoMars
-          icon='https://res.cloudinary.com/dr2vohk2z/image/upload/v1750144892/Marsexplorer/temperatura_no502t.png'
-          title='Degrees'
-          data='-63°C'
+        <CardInfoOrbis
+          icon='https://res.cloudinary.com/dr2vohk2z/image/upload/v1750765546/Orbis/Galaxy_ixddeg.png'
+          title='Known galaxies'
+          data='over 2 trillion'
         />
       </div>
     </>

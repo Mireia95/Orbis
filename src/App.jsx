@@ -6,21 +6,23 @@ import Header from './Components/Layouts/Header/Header'
 import NotFound from './Pages/NotFound/NotFound'
 import Rovers from './Pages/Rovers/Rovers'
 import About from './Pages/About/About'
-import Mars from './Components/Mars/Mars'
+import { GalleryMars } from './Pages/GalleryMars/GalleryMars'
+import { GalleryGalaxy } from './Pages/GalleryGalaxy/GalleryGalaxy'
 
 const App = () => {
-  const location = useLocation()
   return (
     <>
       <Header />
       <main className='flex'>
-        <Mars opacity={location.pathname === '/' ? 1 : 0.4} />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/rovers' element={<Rovers />} />
           <Route path='/gallery' element={<Gallery />} />
+          <Route path='/gallery/mars' element={<GalleryMars />} />
+          <Route path='/gallery/galaxy' element={<GalleryGalaxy />} />
           <Route path='/about' element={<About />} />
-          <Route path='/gallery/:id' element={<Image />} />
+          <Route path='/gallery/mars/:id' element={<Image />} />
+          <Route path='/gallery/galaxy/:id' element={<Image />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </main>

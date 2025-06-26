@@ -1,13 +1,14 @@
 .card {
-  width: 200px;
-  height: 230px;
-
+  width: 300px;
+  height: 225px;
+  border-radius: var(--MA-border-radius);
+  border: 1px solid var(--MA-colorSecondary);
   overflow: hidden;
 }
 
 .card > img {
   object-fit: cover;
   object-position: center;
-  max-width: 250px;
+  max-width: 300px;
   min-height: 100%;
 }

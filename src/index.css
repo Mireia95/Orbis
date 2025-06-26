@@ -72,3 +72,9 @@ button,
 a {
   cursor: pointer;
 }
+
+h3 {
+  color: var(--MA-colorSecondary);
+  font-size: 25px;
+  font-weight: normal;
+}

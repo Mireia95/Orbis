@@ -1,11 +1,13 @@
-import './GalleryCard.css'
+import './GalleryCard.css';
 
-const GalleryCard = ({ photo }) => {
+const GalleryCard = ({ src, alt, key }) => {
+  console.log('GalleryCard ejecutandose');
+  console.log(src);
   return (
-    <div className='card' key={photo.id}>
-      <img src={photo.img_src} alt={photo.id} s></img>
+    <div className='card' key={key}>
+      <img src={src} alt={alt}></img>
     </div>
-  )
-}
+  );
+};
 
-export default GalleryCard
+export default GalleryCard;

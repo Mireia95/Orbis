@@ -18,11 +18,11 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='/rovers' element={<Rovers />} />
           <Route path='/gallery' element={<Gallery />} />
-          <Route path='/gallery/mars' element={<GalleryMars />} />
-          <Route path='/gallery/galaxy' element={<GalleryGalaxy />} />
+          <Route path='/gallery-mars' element={<GalleryMars />} />
+          <Route path='/gallery-galaxy' element={<GalleryGalaxy />} />
           <Route path='/about' element={<About />} />
-          <Route path='/gallery/mars/:id' element={<Image />} />
-          <Route path='/gallery/galaxy/:id' element={<Image />} />
+          <Route path='/image-mars/:id' element={<Image />} />
+          <Route path='/image-galaxy/:id' element={<Image />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </main>

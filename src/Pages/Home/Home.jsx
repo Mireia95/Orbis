@@ -1,7 +1,7 @@
-import { Link } from 'react-router-dom'
 import CardInfoOrbis from '../../Components/CardInfoOrbis/CardInfoOrbis'
 import './Home.css'
 import PlanetBG from '../../Components/PlanetBG/PlanetBG'
+import ButtonLink from '../../Components/ButtonLink/ButtonLink'
 
 const Home = () => {
   return (
@@ -9,10 +9,11 @@ const Home = () => {
       <PlanetBG opacity={1} image={'orbis'} />
       <div className='home flex'>
         <h1> ORBIS</h1>
-        <Link to='/gallery' className='primButt'>
-          {' '}
-          Show gallery
-        </Link>
+        <ButtonLink
+          text='Show gallery'
+          path='/gallery'
+          primButt={true}
+        ></ButtonLink>
       </div>
       <div className='infoMars flex'>
         <CardInfoOrbis

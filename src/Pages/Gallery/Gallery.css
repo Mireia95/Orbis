@@ -1,0 +1,24 @@
+.galleryChoose {
+  z-index: 1;
+  color: var(--MA-colorSecondary);
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.galleryChoose > p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: var(--MA-margin-xxl);
+}
+
+.galleryChoose > a {
+  width: 260px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  padding: var(--MA-padding-xs) var(--MA-padding-xxl);
+  margin-bottom: 20px;
+}

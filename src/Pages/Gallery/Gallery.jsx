@@ -2,18 +2,17 @@ import './Gallery.css'
 import '../../Components/Styles/AnimIn.css'
 import { Link } from 'react-router-dom'
 import PlanetBG from '../../Components/PlanetBG/PlanetBG'
+import ButtonLink from '../../Components/ButtonLink/ButtonLink'
 
 const Gallery = () => {
   return (
     <>
-      <PlanetBG opacity={0.8} image={'orbis'} rotate={true} />
-      <p>Discover the universe through NASA's lens</p>
-      <Link to='/gallery/galaxy' className=''>
-        GALLERY PHOTOS
-      </Link>
-      <Link to='/gallery/mars' className=''>
-        MARS PHOTOS
-      </Link>
+      <PlanetBG opacity={0.4} image={'orbis'} rotate={true} />
+      <div className='galleryChoose flex'>
+        <p>Discover the universe through NASA's lens</p>
+        <ButtonLink text='GALAXY PHOTOS' path='/gallery-galaxy'></ButtonLink>
+        <ButtonLink text='MARS PHOTOS' path='/gallery-mars'></ButtonLink>
+      </div>
     </>
   )
 }

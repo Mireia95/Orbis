@@ -8,7 +8,7 @@ const Gallery = () => {
   return (
     <>
       <PlanetBG opacity={0.4} image={'orbis'} rotate={true} />
-      <div className='galleryChoose flex'>
+      <div className='galleryChoose flex animInCenter'>
         <p>Discover the universe through NASA's lens</p>
         <ButtonLink text='GALAXY PHOTOS' path='/gallery-galaxy'></ButtonLink>
         <ButtonLink text='MARS PHOTOS' path='/gallery-mars'></ButtonLink>

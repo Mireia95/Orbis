@@ -15,11 +15,11 @@ ul {
   justify-content: flex-end;
 }
 .nav-link {
-  color: var(--MA-colorTextSecondary);
+  color: var(--MA-colorTextPrimary);
   padding: var(--MA-padding-xs);
   font-size: 16px;
 }
 
 .nav-link.active {
-  border-bottom: 2px solid var(--MA-colorTextSecondary);
+  border-bottom: 2px solid var(--MA---MA-colorTextPrimary);
 }

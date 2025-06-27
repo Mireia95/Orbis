@@ -15,7 +15,7 @@ const Rovers = () => {
           <div className='rover'>
             <article>
               <img src='' alt='' />
-              <h4> Curiosity name </h4>
+              <h4> Curiosity </h4>
             </article>
           </div>
         </div>

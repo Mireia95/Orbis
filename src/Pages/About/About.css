@@ -11,18 +11,19 @@
 #about > div {
   max-width: 500px;
   max-width: 800px;
-  color: var(--MA-colorTextSecondary);
+  color: var(--MA-colorTextPrimary);
 }
 
 #about > div > .logoMG {
   margin-bottom: var(--MA-margin-xl);
-  border-bottom: 1px solid var(--MA-colorTertiary);
+  border-bottom: 1px solid var(--MA-colorTextPrimary);
   padding-bottom: var(--MA-margin-xl);
 }
 
 #about > div > p {
   margin-bottom: 40px;
   line-height: 1.8;
+  font-weight: 300;
 }
 
 .tasks {
@@ -31,5 +32,5 @@
   gap: var(--MA-gap-m);
   align-items: flex-start;
   padding-bottom: var(--MA-margin-xl);
-  border-bottom: 1px solid var(--MA-colorTertiary);
+  border-bottom: 1px solid var(--MA-colorTextPrimary);
 }

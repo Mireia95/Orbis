@@ -1,7 +1,7 @@
 .logo > a {
   justify-content: flex-start;
   gap: var(--MA-gap-xs);
-  color: var(--MA-colorTertiary);
+  color: var(--MA-colorTextPrimary);
   font-weight: 500;
 }
 .logo > a > img {

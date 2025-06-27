@@ -2,6 +2,14 @@
   animation: In 1.5s ease 0s 1 normal forwards;
 }
 
+.animInCenter {
+  animation: InCenter 1.5s ease 0s 1 normal forwards;
+}
+
+.fadeIn {
+  animation: fadeIn 1.5s ease 0s 1 normal forwards;
+}
+
 @keyframes In {
   0% {
     opacity: 0;
@@ -11,5 +19,27 @@
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes InCenter {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }

@@ -6,10 +6,9 @@
   --MA-colorPrimary: #070604;
   --MA-colorPrimaryAlpha: rgba(7, 6, 4, 0.8);
   --MA-colorSecondary: #fff8f8;
-  --MA-colorTertiary: #f8f8f8;
+  --MA-colorSecondaryHover: #1d1d1d;
 
   --MA-colorTextPrimary: var(--MA-colorSecondary);
-  --MA-colorTextSecondary: var(--MA-colorTertiary);
   --MA-colorBG: var(--MA-colorPrimary);
   --MA-colorBGAlhpa: var(--MA-colorPrimaryAlpha);
 
@@ -36,6 +35,7 @@
   --MA-gap-s: 16px;
   --MA-gap-m: 24px;
   --MA-gap-l: 32px;
+  --MA-gap-xl: 40px;
 
   --MA-border-radius: 8px;
   --MA-border-radius-button: 8px;

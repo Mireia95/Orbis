@@ -1,8 +1,8 @@
 .task {
   padding: var(--MA-padding-xs) var(--MA-padding-m);
   border-radius: var(--MA-border-radius);
-  border: 1px solid var(--MA-colorTertiary);
+  border: 1px solid var(--MA-colorSecondary);
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 200;
   background-color: var(--MA-colorBGAlhpa);
 }

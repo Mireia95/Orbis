@@ -3,6 +3,6 @@
   border-radius: var(--MA-border-radius);
   width: 80%;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: var(--MA-gap-xl);
   justify-content: center;
 }

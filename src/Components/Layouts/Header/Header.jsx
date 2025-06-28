@@ -20,12 +20,12 @@ const Header = () => {
           </li>
           <li>
             <NavLink
-              to='/rovers'
+              to='/daily'
               className={({ isActive }) =>
                 isActive ? 'nav-link active' : 'nav-link'
               }
             >
-              Rovers
+              Daily Photo
             </NavLink>
           </li>
           <li>

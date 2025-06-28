@@ -1,3 +1,9 @@
+.divTitle {
+  width: 80%;
+  justify-content: center;
+  position: relative;
+}
+
 .galaxies-photos {
   margin-top: var(--MA-margin-xxl);
   border-radius: var(--MA-border-radius);

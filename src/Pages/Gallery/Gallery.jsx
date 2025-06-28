@@ -11,7 +11,7 @@ const Gallery = () => {
       <div className='galleryChoose flex animInCenter'>
         <p>Discover the universe through NASA's lens</p>
         <ButtonLink text='GALAXY PHOTOS' path='/gallery-galaxy'></ButtonLink>
-        <ButtonLink text='MARS PHOTOS' path='/gallery-mars'></ButtonLink>
+        <ButtonLink text='NEBULA PHOTOS' path='/gallery-nebula'></ButtonLink>
       </div>
     </>
   )

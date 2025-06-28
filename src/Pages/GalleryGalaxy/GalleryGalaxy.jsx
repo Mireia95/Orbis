@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import GalleryCard from '../../Components/GalleryCard/GalleryCard'
 import './GalleryGalaxy.css'
 import Loading from '../../Components/Loading/Loading'
+import ButtonBack from '../../Components/ButtonBack/ButtonBack'
 
 export const GalleryGalaxy = () => {
   const [photos, setPhotos] = useState([])
@@ -19,7 +20,10 @@ export const GalleryGalaxy = () => {
   }, [])
   return (
     <>
-      <h3 className='fadeIn'>GALAXIES PHOTOS</h3>
+      <div className='divTitle fadeIn flex'>
+        <ButtonBack path={'/gallery'} />
+        <h3>GALAXIES PHOTOS</h3>
+      </div>
       <div className='flex fadeIn galaxies-photos'>
         {loading && <Loading />}
         {photos.map((photo, index) => {

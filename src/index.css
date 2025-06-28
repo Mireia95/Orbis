@@ -61,6 +61,7 @@ main {
   min-height: 90svh;
   width: 100%;
   flex-direction: column;
+  padding-top: var(--MA-padding-xxl);
 }
 
 .flex {

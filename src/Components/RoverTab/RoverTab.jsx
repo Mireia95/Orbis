@@ -9,8 +9,8 @@ const RoverTab = ({ name, isActive, onClick }) => {
       <img
         src={`${
           isActive === name
-            ? 'https://res.cloudinary.com/dr2vohk2z/image/upload/v1750228799/Marsexplorer/RoverTabActive_bso7ba.png'
-            : 'https://res.cloudinary.com/dr2vohk2z/image/upload/v1750228771/Marsexplorer/RoverTab_ogrcvr.png'
+            ? 'https://res.cloudinary.com/dr2vohk2z/image/upload/v1751102052/Orbis/roverv002_btzdwd.png'
+            : 'https://res.cloudinary.com/dr2vohk2z/image/upload/v1751102244/Orbis/roverWhitev002_ho3idx.png'
         }`}
         alt={name}
       />{' '}

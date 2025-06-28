@@ -13,6 +13,7 @@ nav,
 ul {
   width: 100%;
   justify-content: flex-end;
+  gap: var(--MA-gap-m);
 }
 .nav-link {
   color: var(--MA-colorTextPrimary);

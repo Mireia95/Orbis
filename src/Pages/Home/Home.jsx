@@ -11,7 +11,7 @@ const Home = () => {
         <h1> ORBIS</h1>
         <ButtonLink
           text='Show gallery'
-          path='/gallery'
+          path='/gallery-galaxy'
           primButt={true}
         ></ButtonLink>
       </div>

@@ -4,6 +4,7 @@ import RoverTab from '../../Components/RoverTab/RoverTab'
 import { roverList } from '../../Utils/roversList'
 import Loading from '../../Components/Loading/Loading'
 import GalleryCard from '../../Components/GalleryCard/GalleryCard'
+import ButtonBack from '../../Components/ButtonBack/ButtonBack'
 
 export const GalleryMars = () => {
   const [active, setActive] = useState('CURIOSITY')
@@ -27,6 +28,7 @@ export const GalleryMars = () => {
   return (
     <section id='galleryMars' className='animIn'>
       <div className='galleryTab flex'>
+        <ButtonBack path='/gallery' />
         {roverList.map((rover) => {
           return (
             <RoverTab

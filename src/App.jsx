@@ -1,13 +1,13 @@
-import { Route, Routes, useLocation } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Gallery from './Pages/Gallery/Gallery'
 import Home from './Pages/Home/Home'
 import Header from './Components/Layouts/Header/Header'
 import NotFound from './Pages/NotFound/NotFound'
-import Rovers from './Pages/Rovers/Rovers'
 import About from './Pages/About/About'
 import { GalleryMars } from './Pages/GalleryMars/GalleryMars'
 import { GalleryGalaxy } from './Pages/GalleryGalaxy/GalleryGalaxy'
+import Daily from './Pages/Daily/Daily'
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
       <main className='flex'>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/rovers' element={<Rovers />} />
+          <Route path='/daily' element={<Daily />} />
           <Route path='/gallery' element={<Gallery />} />
           <Route path='/gallery-mars' element={<GalleryMars />} />
           <Route path='/gallery-galaxy' element={<GalleryGalaxy />} />

@@ -4,20 +4,26 @@
   color: var(--MA-colorSecondary);
   border-radius: 8px 8px 0px 0px;
   gap: 10px;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 300;
   transition: all 0.3s;
 }
 
 .roverTab > img {
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: 16px;
 }
 
 .roverTab.active {
   background-color: var(--MA-colorSecondary);
   color: var(--MA-colorPrimary);
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.roverTab.active > img {
+  width: 20px;
+  height: 20px;
 }
 
 .roverTab:not(.active):hover {

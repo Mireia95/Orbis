@@ -25,7 +25,7 @@ const Header = () => {
                 isActive ? 'nav-link active' : 'nav-link'
               }
             >
-              Daily Photo
+              DailyPic
             </NavLink>
           </li>
           <li>

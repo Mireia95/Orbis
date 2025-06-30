@@ -1,6 +1,5 @@
 import './Gallery.css'
 import '../../Components/Styles/AnimIn.css'
-import { Link } from 'react-router-dom'
 import PlanetBG from '../../Components/PlanetBG/PlanetBG'
 import ButtonLink from '../../Components/ButtonLink/ButtonLink'
 

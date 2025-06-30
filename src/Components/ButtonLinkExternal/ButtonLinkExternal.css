@@ -1,0 +1,15 @@
+.extLink {
+  border-radius: var(--MA-border-radius-button);
+  font-family: var(--MA-fontSecondary);
+  padding: var(--MA-padding-xs) var(--MA-padding-m);
+  border: 1px solid var(--MA-colorSecondary);
+  background-color: var(--MA-colorPrimary);
+  color: var(--MA-colorSecondary);
+  justify-content: center;
+  gap: var(--MA-gap-s);
+  width: fit-content;
+}
+
+.extLink > img {
+  width: 16px;
+}

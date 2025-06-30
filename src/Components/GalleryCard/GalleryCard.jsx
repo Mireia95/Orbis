@@ -1,23 +1,23 @@
-import ButtonLink from '../ButtonLink/ButtonLink'
-import './GalleryCard.css'
+import ButtonLink from '../ButtonLink/ButtonLink';
+import './GalleryCard.css';
 
-const GalleryCard = ({ src, alt, key, path }) => {
+const GalleryCard = ({ src, alt, index, path }) => {
   return (
     <>
-      <div className='card' key={key}>
+      <div className='card' key={index}>
+        <div className='detailsHover flex'>
+          <ButtonLink
+            text='View details'
+            img='https://res.cloudinary.com/dr2vohk2z/image/upload/v1751316778/Orbis/SearchIconv002_xyunkm.png'
+            alt='details'
+            path={path}
+            className='hoverLink flex'
+          ></ButtonLink>
+        </div>
         <img src={src} alt={alt}></img>
       </div>
-      <div className='details flex'>
-        <ButtonLink
-          text='View details'
-          img=''
-          alt='details'
-          className='detailsHover'
-          path={path}
-        ></ButtonLink>
-      </div>
     </>
-  )
-}
+  );
+};
 
-export default GalleryCard
+export default GalleryCard;

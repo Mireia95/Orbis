@@ -1,0 +1,15 @@
+#pictureDetail {
+  width: 100%;
+  min-height: 500px;
+}
+
+#pictureDetail > p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.date {
+  border: 1px solid var(--MA-colorSecondary);
+  padding: var(--MA-padding-xs) var(--MA-padding-s);
+  font-size: 14px;
+}

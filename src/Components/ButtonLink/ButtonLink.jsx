@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
-import './ButtonLink.css'
+import { Link } from 'react-router-dom';
+import './ButtonLink.css';
 
 const ButtonLink = ({
   text,
@@ -19,7 +19,7 @@ const ButtonLink = ({
       {img ? <img src={img} alt={alt} /> : null}
       {text}
     </Link>
-  )
-}
+  );
+};
 
-export default ButtonLink
+export default ButtonLink;

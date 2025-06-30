@@ -1,24 +1,23 @@
-import { useEffect, useState } from 'react'
-import './Daily.css'
-import Loading from '../../Components/Loading/Loading'
-import ButtonLinkExternal from '../../Components/ButtonLinkExternal/ButtonLinkExternal'
+import { useEffect, useState } from 'react';
+import './Daily.css';
+import Loading from '../../Components/Loading/Loading';
+import ButtonLinkExternal from '../../Components/ButtonLinkExternal/ButtonLinkExternal';
 
 const Daily = () => {
-  const [daily, setDaily] = useState(null)
-  const [loading, setLoading] = useState(false)
+  const [daily, setDaily] = useState(null);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    setLoading(true)
+    setLoading(true);
     fetch(
       'https://api.nasa.gov/planetary/apod?api_key=f1OcLdTJsj9cQDrS0tcbhnwLxSTlnrZJnlrqtS0H'
     )
       .then((res) => res.json())
       .then((res) => {
-        console.log(res)
-        setDaily(res)
-        setLoading(false)
-      })
-  }, [])
+        setDaily(res);
+        setLoading(false);
+      });
+  }, []);
 
   return (
     <section id='daily' className='fadeIn flex'>
@@ -41,7 +40,7 @@ const Daily = () => {
         )}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Daily
+export default Daily;

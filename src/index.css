@@ -79,3 +79,9 @@ h3 {
   font-size: 25px;
   font-weight: normal;
 }
+
+p,
+button,
+a {
+  color: var(--MA-colorSecondary);
+}

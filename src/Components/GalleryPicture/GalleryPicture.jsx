@@ -28,12 +28,13 @@ const GalleryPicture = ({ title, search }) => {
       <div className='flex fadeIn galaxies-photos'>
         {loading && <Loading />}
         {photos.map((photo, index) => {
+          console.log(photo.data[0].nasa_id);
           return (
             <GalleryCard
               src={photo.links[1].href}
               alt='galaxy image'
-              index={index}
-              path={`/picture/:id`}
+              id={photo.data[0].nasa_id}
+              path={`/picture/${photo.data[0].nasa_id}`}
             />
           );
         })}

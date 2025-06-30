@@ -1,10 +1,10 @@
 import ButtonLink from '../ButtonLink/ButtonLink';
 import './GalleryCard.css';
 
-const GalleryCard = ({ src, alt, index, path }) => {
+const GalleryCard = ({ src, alt, id, path }) => {
   return (
     <>
-      <div className='card' key={index}>
+      <div className='card' key={id}>
         <div className='detailsHover flex'>
           <ButtonLink
             text='View details'

@@ -1,14 +1,27 @@
+import { useEffect, useState } from 'react';
 import './PictureDetails.css';
+import { useParams } from 'react-router-dom';
 
-const PictureDetails = ({ title, description, date, img }) => {
-  console.log('details');
+const PictureDetails = () => {
+  const [picture, setPicture] = useState('');
+  const { id } = useParams();
+  console.log(id);
+  useEffect(() => {
+    fetch(`https://images-api.nasa.gov/asset/${id}`)
+      .then((res) => res.json())
+      .then((res) => {
+        console.log(res);
+        setPicture(res);
+      });
+  }, []);
+
   return (
     <section id='pictureDetail'>
-      <h3> {title}</h3>
-      <p> {description}</p>
-      <p className='date'>{date}</p>
+      <h3> PRUEBA </h3>
+      <p> </p>
+      <p className='date'></p>
       <div>
-        <img src={img} alt={title}></img>
+        <img></img>
       </div>
     </section>
   );

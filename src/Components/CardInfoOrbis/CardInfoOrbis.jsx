@@ -1,4 +1,4 @@
-import './CardInfoOrbis.css'
+import './CardInfoOrbis.css';
 
 const CardInfoOrbis = ({ icon, title, data }) => {
   return (
@@ -7,7 +7,7 @@ const CardInfoOrbis = ({ icon, title, data }) => {
       <h3>{title}</h3>
       <p>{data}</p>
     </article>
-  )
-}
+  );
+};
 
-export default CardInfoOrbis
+export default CardInfoOrbis;

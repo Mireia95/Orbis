@@ -1,56 +1,33 @@
 import { NavLink } from 'react-router-dom';
 import Logo from '../../Logo/Logo';
 import './Header.css';
+import Nav from '../Nav/Nav';
+import { useState } from 'react';
 
 const Header = () => {
+  const [isMobile, setIsMobile] = useState(false);
   return (
-    <header className='flex'>
-      <Logo />
-      <nav>
-        <ul className='flex'>
-          <li>
-            <NavLink
-              to='/'
-              className={({ isActive }) =>
-                isActive ? 'nav-link active' : 'nav-link'
-              }
-            >
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to='/daily'
-              className={({ isActive }) =>
-                isActive ? 'nav-link active' : 'nav-link'
-              }
-            >
-              DailyPic
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to='/gallery'
-              className={({ isActive }) =>
-                isActive ? 'nav-link active' : 'nav-link'
-              }
-            >
-              Gallery
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to='/about'
-              className={({ isActive }) =>
-                isActive ? 'nav-link active' : 'nav-link'
-              }
-            >
-              About
-            </NavLink>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <>
+      <header className='flex header-desktop'>
+        <Logo />
+        <Nav />
+      </header>
+      <img
+        className='header-mobile menu'
+        onClick={() => setIsMobile(!isMobile)}
+        src='https://res.cloudinary.com/dr2vohk2z/image/upload/v1751435898/Orbis/menu_qlbwho.png'
+        alt='menu'
+      />
+      <header className={`flex header-mobile ${isMobile ? 'isMobile' : ''}`}>
+        <img
+          src='https://res.cloudinary.com/dr2vohk2z/image/upload/v1751437144/Orbis/close_hslbyi.png'
+          alt='close menu'
+          onClick={() => setIsMobile(false)}
+        ></img>
+        <Logo />
+        <Nav />
+      </header>
+    </>
   );
 };
 

@@ -19,7 +19,13 @@
   font-size: 25px;
   font-weight: 300;
 }
-.dailyPhoto > div {
+.dailyContent {
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px 30px;
+  gap: 20px;
+}
+.dailyContent > div {
   border: 1px solid var(--MA-colorPrimary);
   border-radius: var(--MA-border-radius);
   overflow: hidden;
@@ -29,7 +35,7 @@
   position: relative;
 }
 
-.dailyPhoto > div > img {
+.dailyContent > div > img {
   object-fit: cover;
   object-position: center;
   max-width: 100%;
@@ -50,7 +56,7 @@
   transition: all 0.5s ease;
 }
 
-.dailyPhoto > div:hover .dailyHover {
+.dailyContent > div:hover .dailyHover {
   opacity: 1;
   pointer-events: all;
 }
@@ -67,4 +73,10 @@
   font-weight: 300;
   font-size: 14px;
   text-align: center;
+}
+
+@media (max-width: 1500px) {
+  .dailyContent > div {
+    max-width: 500px;
+  }
 }

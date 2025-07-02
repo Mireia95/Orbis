@@ -27,14 +27,16 @@ const Daily = () => {
         {daily && (
           <>
             <h4> {daily.title}</h4>
-            <div>
-              <div className='dailyHover flex'>
-                <ButtonLinkExternal url={daily.url} text='Open URL image' />{' '}
+            <div className='dailyContent flex'>
+              <div>
+                <div className='dailyHover flex'>
+                  <ButtonLinkExternal url={daily.url} text='Open URL image' />{' '}
+                </div>
+                <img src={daily.url} alt='daily photo'></img>
               </div>
-              <img src={daily.url} alt='daily photo'></img>
-            </div>
-            <div className='dailyInfo flex'>
-              <p>{daily.explanation}</p>
+              <div className='dailyInfo flex'>
+                <p>{daily.explanation}</p>
+              </div>
             </div>
           </>
         )}

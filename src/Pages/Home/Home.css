@@ -32,3 +32,23 @@ h1 {
   flex-wrap: wrap;
   gap: 40px;
 }
+
+/* MEDIA QUERY */
+@media (max-width: 900px) {
+  .home {
+    top: 40%;
+    left: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 80px;
+  }
+}

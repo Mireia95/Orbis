@@ -1,13 +1,15 @@
-import CardInfoOrbis from '../../Components/CardInfoOrbis/CardInfoOrbis'
-import './Home.css'
-import PlanetBG from '../../Components/PlanetBG/PlanetBG'
-import ButtonLink from '../../Components/ButtonLink/ButtonLink'
+import CardInfoOrbis from '../../Components/CardInfoOrbis/CardInfoOrbis';
+import './Home.css';
+import '../../Components/Styles/AnimInH1.css';
+import '../../Components/Styles/AnimIn.css';
+import PlanetBG from '../../Components/PlanetBG/PlanetBG';
+import ButtonLink from '../../Components/ButtonLink/ButtonLink';
 
 const Home = () => {
   return (
     <>
       <PlanetBG opacity={1} image={'orbis'} />
-      <div className='home flex'>
+      <div className='home flex animInTitle'>
         <h1> ORBIS</h1>
         <ButtonLink
           text='Show gallery'
@@ -33,7 +35,7 @@ const Home = () => {
         />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

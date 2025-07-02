@@ -1,0 +1,16 @@
+/* anim for h1 home */
+.animInTitle {
+  animation: InTitle 1.5s ease 0s 1 normal forwards;
+}
+
+@keyframes InTitle {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) translateY(0);
+  }
+}

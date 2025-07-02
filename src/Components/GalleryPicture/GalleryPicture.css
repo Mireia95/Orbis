@@ -6,6 +6,7 @@
 
 .galaxies-photos {
   margin-top: var(--MA-margin-xxl);
+  margin-bottom: var(--MA-margin-xxl);
   border-radius: var(--MA-border-radius);
   width: 80%;
   flex-wrap: wrap;

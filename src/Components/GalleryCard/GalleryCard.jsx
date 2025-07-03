@@ -1,5 +1,5 @@
-import ButtonLink from '../ButtonLink/ButtonLink';
-import './GalleryCard.css';
+import ButtonLink from '../ButtonLink/ButtonLink'
+import './GalleryCard.css'
 
 const GalleryCard = ({ src, alt, id, path }) => {
   return (
@@ -17,7 +17,7 @@ const GalleryCard = ({ src, alt, id, path }) => {
         <img src={src} alt={alt}></img>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default GalleryCard;
+export default GalleryCard

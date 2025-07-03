@@ -16,4 +16,11 @@
 }
 
 @media (max-width: 750px) {
+  .back > .btn-text {
+    display: none;
+  }
+  .back {
+    padding: 8px var(--MA-padding-s);
+    left: -20px;
+  }
 }

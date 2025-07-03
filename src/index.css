@@ -86,3 +86,9 @@ button,
 a {
   color: var(--MA-colorSecondary);
 }
+
+@media (max-width: 600px) {
+  main {
+    padding-top: 0px;
+  }
+}

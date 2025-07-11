@@ -40,6 +40,8 @@
 
   --MA-border-radius: 8px;
   --MA-border-radius-button: 8px;
+
+  --OR-header-height: 8svh;
 }
 
 * {

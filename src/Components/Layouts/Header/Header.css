@@ -8,7 +8,7 @@ header {
 
 header.header-desktop {
   width: 100%;
-  height: 8svh;
+  height: var(--OR-header-height);
   background-color: var(--MA-colorPrimary);
   padding: var(--MA-padding-s) var(--MA-padding-m);
 }
@@ -19,6 +19,7 @@ header.header-mobile {
 
 .header-mobile {
   display: none;
+  margin-top: 64px;
 }
 
 .hamburger-react {

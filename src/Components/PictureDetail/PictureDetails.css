@@ -30,15 +30,38 @@
   border: 1px solid var(--MA-colorSecondary);
   border-radius: var(--MA-border-radius);
   overflow: hidden;
+  margin: 0 var(--MA-margin-m);
   margin-bottom: var(--MA-margin-xxl);
+  width: 90%;
   min-width: 400px;
   min-height: 180px;
   max-width: 800px;
 }
 
 .imgDetail > img {
+  display: block;
+
   object-fit: cover;
   object-position: center;
-  max-width: 600px;
-  display: block;
+  max-width: 100%;
+}
+
+@media (max-width: 750px) {
+  .imgDetail {
+    min-width: 250px;
+    height: auto;
+    max-width: 500px;
+  }
+
+  #pictureDetail > div > h3 {
+    max-width: 250px;
+    text-align: center;
+    margin-top: var(--MA-margin-l);
+  }
+}
+
+@media (max-width: 600px) {
+  #pictureDetail {
+    margin-top: var(--MA-margin-m);
+  }
 }

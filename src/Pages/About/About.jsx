@@ -8,7 +8,7 @@ import PlanetBG from '../../Components/PlanetBG/PlanetBG'
 const About = () => {
   return (
     <>
-      <PlanetBG opacity={0.4} image={'orbis'} />
+      {/*      <PlanetBG opacity={0.4} /> */}
       <section id='about' className='flex animIn'>
         <div>
           <LogoMG />

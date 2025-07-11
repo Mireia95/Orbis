@@ -10,13 +10,12 @@
 .planetBG > img {
   width: 90%;
   position: absolute;
-  top: 10%;
+  bottom: -30%;
   left: 0%;
-  transform: translateX(-50%);
-  transition: transform 0.5s ease;
 }
 
-.planetBG > img.rotate {
-  transform: translateX(-50%) rotate(45deg);
-  transform-origin: center center;
+@media (max-width: 750px) {
+  .planetBG > img {
+    bottom: -20%;
+  }
 }

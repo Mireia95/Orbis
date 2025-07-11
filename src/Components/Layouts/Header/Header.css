@@ -21,6 +21,11 @@ header.header-mobile {
   display: none;
 }
 
+.hamburger-react {
+  display: none;
+  margin: var(--MA-margin-m);
+}
+
 .menu {
   width: 40px;
   height: 40px;
@@ -32,13 +37,14 @@ header.header-mobile {
   width: 0px;
   overflow: hidden;
   height: 100svh;
-  border-right: 1px solid var(--MA-colorSecondary);
+  margin-top: 64px;
   transition: all 0.4s ease;
 }
 
 header.header-mobile.isMobile {
   width: 100px;
   padding: var(--MA-padding-m) var(--MA-padding-s);
+  border-right: 1px solid var(--MA-colorSecondary);
 }
 
 header.header-mobile > nav {
@@ -60,6 +66,10 @@ header.header-mobile > nav > ul {
   }
 
   .header-mobile {
+    display: block;
+  }
+
+  .hamburger-react {
     display: block;
   }
 }

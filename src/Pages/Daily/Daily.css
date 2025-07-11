@@ -5,6 +5,7 @@
 
 #daily > h3 {
   margin-bottom: var(--MA-margin-xxl);
+  text-align: center;
 }
 .dailyPhoto {
   width: 100%;
@@ -18,15 +19,15 @@
   color: var(--MA-colorTextPrimary);
   font-size: 25px;
   font-weight: 300;
+  text-align: center;
 }
 .dailyContent {
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px 30px;
+  padding: var(--MA-padding-s) var(--MA-padding-m);
   gap: 20px;
 }
 .dailyContent > div {
-  border: 1px solid var(--MA-colorPrimary);
   border-radius: var(--MA-border-radius);
   overflow: hidden;
   width: 80%;
@@ -78,5 +79,19 @@
 @media (max-width: 1500px) {
   .dailyContent > div {
     max-width: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .dailyContent > {
+    padding: var(--MA-padding-xs) var(--MA-padding-s);
+  }
+  .dailyContent > div {
+    width: 100%;
+    min-height: 100px;
+  }
+
+  .dailyInfo > p {
+    padding: var(--MA-margin-s);
   }
 }

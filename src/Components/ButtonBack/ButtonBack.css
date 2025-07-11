@@ -22,5 +22,6 @@
   .back {
     padding: 8px var(--MA-padding-s);
     left: -20px;
+    top: 0px;
   }
 }

@@ -1,34 +1,39 @@
-import { NavLink } from 'react-router-dom';
-import Logo from '../../Logo/Logo';
-import './Header.css';
-import Nav from '../Nav/Nav';
-import { useState } from 'react';
+import Logo from '../../Logo/Logo'
+import './Header.css'
+import Nav from '../Nav/Nav'
+import { useState } from 'react'
+import Hamburger from 'hamburger-react'
 
 const Header = () => {
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(false)
+  const [isOpen, setOpen] = useState(false)
+
   return (
     <>
       <header className='flex header-desktop'>
         <Logo />
         <Nav />
       </header>
-      <img
-        className='header-mobile menu'
-        onClick={() => setIsMobile(!isMobile)}
-        src='https://res.cloudinary.com/dr2vohk2z/image/upload/v1751435898/Orbis/menu_qlbwho.png'
-        alt='menu'
+
+      <Hamburger
+        toggled={isOpen}
+        toggle={setOpen}
+        color='#fff8f8'
+        direction='right'
+        onToggle={(toggled) => {
+          if (toggled) {
+            setIsMobile(true)
+          } else {
+            setIsMobile(false)
+          }
+        }}
       />
       <header className={`flex header-mobile ${isMobile ? 'isMobile' : ''}`}>
-        <img
-          src='https://res.cloudinary.com/dr2vohk2z/image/upload/v1751437144/Orbis/close_hslbyi.png'
-          alt='close menu'
-          onClick={() => setIsMobile(false)}
-        ></img>
-        <Logo />
+        <Logo text={false} />
         <Nav />
       </header>
     </>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

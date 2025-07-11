@@ -1,17 +1,19 @@
-import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import Gallery from './Pages/Gallery/Gallery';
-import Home from './Pages/Home/Home';
-import Header from './Components/Layouts/Header/Header';
-import NotFound from './Pages/NotFound/NotFound';
-import About from './Pages/About/About';
-import Daily from './Pages/Daily/Daily';
-import PictureDetails from './Components/PictureDetail/PictureDetails';
-import GalleryPicture from './Components/GalleryPicture/GalleryPicture';
+import { Route, Routes } from 'react-router-dom'
+import './App.css'
+import Gallery from './Pages/Gallery/Gallery'
+import Home from './Pages/Home/Home'
+import Header from './Components/Layouts/Header/Header'
+import NotFound from './Pages/NotFound/NotFound'
+import About from './Pages/About/About'
+import Daily from './Pages/Daily/Daily'
+import PictureDetails from './Components/PictureDetail/PictureDetails'
+import GalleryPicture from './Components/GalleryPicture/GalleryPicture'
+import PlanetBG from './Components/PlanetBG/PlanetBG'
 
 const App = () => {
   return (
     <>
+      <PlanetBG />
       <Header />
       <main className='flex'>
         <Routes>
@@ -32,7 +34,7 @@ const App = () => {
         </Routes>
       </main>
     </>
-  );
-};
+  )
+}
 
-export default App;
+export default App

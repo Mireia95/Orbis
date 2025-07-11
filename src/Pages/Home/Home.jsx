@@ -1,14 +1,14 @@
-import CardInfoOrbis from '../../Components/CardInfoOrbis/CardInfoOrbis';
-import './Home.css';
-import '../../Components/Styles/AnimInH1.css';
-import '../../Components/Styles/AnimIn.css';
-import PlanetBG from '../../Components/PlanetBG/PlanetBG';
-import ButtonLink from '../../Components/ButtonLink/ButtonLink';
+import CardInfoOrbis from '../../Components/CardInfoOrbis/CardInfoOrbis'
+import './Home.css'
+import '../../Components/Styles/AnimInH1.css'
+import '../../Components/Styles/AnimIn.css'
+import PlanetBG from '../../Components/PlanetBG/PlanetBG'
+import ButtonLink from '../../Components/ButtonLink/ButtonLink'
 
 const Home = () => {
   return (
     <>
-      <PlanetBG opacity={1} image={'orbis'} />
+      {/*      <PlanetBG opacity={1} /> */}
       <div className='home flex animInTitle'>
         <h1> ORBIS</h1>
         <ButtonLink
@@ -17,7 +17,7 @@ const Home = () => {
           primButt={true}
         ></ButtonLink>
       </div>
-      <div className='infoMars flex'>
+      <div className='infoGalaxy flex'>
         <CardInfoOrbis
           icon='https://res.cloudinary.com/dr2vohk2z/image/upload/v1750765546/Orbis/Diameter_eagrmz.png'
           title='Diameter galaxy'
@@ -35,7 +35,7 @@ const Home = () => {
         />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

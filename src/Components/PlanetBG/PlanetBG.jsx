@@ -1,22 +1,38 @@
+import { useLocation } from 'react-router-dom'
 import './PlanetBG.css'
+import { useEffect, useState } from 'react'
 
-const PlanetBG = ({ opacity, image, rotate = false }) => {
-  const images = {
-    orbis:
-      'https://res.cloudinary.com/dr2vohk2z/image/upload/v1750681673/Orbis/ORBISBG_wokwmt.png',
-    mars: 'https://res.cloudinary.com/dr2vohk2z/image/upload/v1750681672/Orbis/MARSBG_a4lz1p.png'
-  }
-  console.log(image)
+const PlanetBG = () => {
+  const location = useLocation()
+  const [rotation, setRotation] = useState(0)
+  const [opacity, setOpacity] = useState(1)
 
+  //check is is first load
+  const firstLoad = location.pathname === '/' && rotation === 0
+
+  useEffect(() => {
+    if (location.pathname === '/') {
+      setOpacity(1)
+      setRotation(0)
+    } else {
+      setOpacity(0.4)
+    }
+    if (!firstLoad) {
+      setRotation((prev) => prev + 45)
+      console.log(location.pathname)
+    }
+  }, [location.pathname])
   return (
     <div className={'planetBG'}>
       <img
-        className={rotate ? 'rotate' : ''}
+        className={firstLoad ? 'fadeInOut' : ''}
         style={{
-          opacity: opacity
+          opacity: opacity,
+          transform: `translateX(-50%) rotate(${rotation}deg)`,
+          transition: 'transform 1s ease'
         }}
-        src={images[image]}
-        alt={`${image} planet`}
+        src='https://res.cloudinary.com/dr2vohk2z/image/upload/v1750681673/Orbis/ORBISBG_wokwmt.png'
+        alt='planet'
       />
     </div>
   )

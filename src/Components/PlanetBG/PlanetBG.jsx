@@ -1,27 +1,26 @@
-import { useLocation } from 'react-router-dom'
-import './PlanetBG.css'
-import { useEffect, useState } from 'react'
+import { useLocation } from 'react-router-dom';
+import './PlanetBG.css';
+import { useEffect, useState } from 'react';
 
 const PlanetBG = () => {
-  const location = useLocation()
-  const [rotation, setRotation] = useState(0)
-  const [opacity, setOpacity] = useState(1)
+  const location = useLocation();
+  const [rotation, setRotation] = useState(0);
+  const [opacity, setOpacity] = useState(0.8);
 
   //check is is first load
-  const firstLoad = location.pathname === '/' && rotation === 0
+  const firstLoad = location.pathname === '/' && rotation === 0;
 
   useEffect(() => {
     if (location.pathname === '/') {
-      setOpacity(1)
-      setRotation(0)
+      setOpacity(0.8);
+      setRotation(0);
     } else {
-      setOpacity(0.4)
+      setOpacity(0.4);
     }
     if (!firstLoad) {
-      setRotation((prev) => prev + 45)
-      console.log(location.pathname)
+      setRotation((prev) => prev + 45);
     }
-  }, [location.pathname])
+  }, [location.pathname]);
   return (
     <div className={'planetBG'}>
       <img
@@ -35,7 +34,7 @@ const PlanetBG = () => {
         alt='planet'
       />
     </div>
-  )
-}
+  );
+};
 
-export default PlanetBG
+export default PlanetBG;

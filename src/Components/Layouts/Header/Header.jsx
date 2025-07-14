@@ -1,12 +1,12 @@
-import Logo from '../../Logo/Logo'
-import './Header.css'
-import Nav from '../Nav/Nav'
-import { useState } from 'react'
-import Hamburger from 'hamburger-react'
+import Logo from '../../Logo/Logo';
+import './Header.css';
+import Nav from '../Nav/Nav';
+import { useState } from 'react';
+import Hamburger from 'hamburger-react';
 
 const Header = () => {
-  const [isMobile, setIsMobile] = useState(false)
-  const [isOpen, setOpen] = useState(false)
+  const [isMobile, setIsMobile] = useState(false);
+  const [isOpen, setOpen] = useState(false);
 
   return (
     <>
@@ -22,9 +22,9 @@ const Header = () => {
         direction='right'
         onToggle={(toggled) => {
           if (toggled) {
-            setIsMobile(true)
+            setIsMobile(true);
           } else {
-            setIsMobile(false)
+            setIsMobile(false);
           }
         }}
       />
@@ -33,7 +33,7 @@ const Header = () => {
         <Nav />
       </header>
     </>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

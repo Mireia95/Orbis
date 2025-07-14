@@ -54,6 +54,10 @@ h1 {
   .home > a {
     font-size: 16px;
   }
+  .infoGalaxy {
+    width: 100%;
+    padding: 8px;
+  }
 }
 
 @media (max-height: 800px) {

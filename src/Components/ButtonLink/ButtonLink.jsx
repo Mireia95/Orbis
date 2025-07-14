@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom'
-import './ButtonLink.css'
+import { Link } from 'react-router-dom';
+import './ButtonLink.css';
 
 const ButtonLink = ({
   text,
@@ -7,10 +7,12 @@ const ButtonLink = ({
   primButt = false,
   img,
   alt = '',
-  className
+  className,
+  state
 }) => {
   return (
     <Link
+      state={state}
       className={`btn-link ${primButt ? 'primButt' : ''} ${
         className ? className : ''
       }`}
@@ -19,7 +21,7 @@ const ButtonLink = ({
       {img ? <img src={img} alt={alt} /> : null}
       {text && <span className='btn-text'>{text}</span>}
     </Link>
-  )
-}
+  );
+};
 
-export default ButtonLink
+export default ButtonLink;

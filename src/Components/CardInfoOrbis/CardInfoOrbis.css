@@ -22,13 +22,19 @@
 }
 
 @media (max-width: 600px) {
+  .cardInfoOrbis {
+    min-width: 150px;
+    max-width: 200px;
+    padding: 8px 0;
+    background-color: var(--OR-colorBGAlhpa);
+  }
   .cardInfoOrbis > h3 {
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
   }
   .cardInfoOrbis > p {
     font-weight: 200;
-    font-size: 14px;
+    font-size: 12px;
   }
   .cardInfoOrbis > img {
     width: 30px;

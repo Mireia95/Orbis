@@ -37,7 +37,7 @@ Orbis is a project to practice building and organizing React components. It uses
 
 ### Concepts and tools practiced
 
-- **Design:** Fully designed by me using Figma.
+- **Design:** fully designed by me using Figma.
 
 - **React Router DOM**: used to handle routing in the application. It allows navigation between different pages or views without reloading the whole page
 

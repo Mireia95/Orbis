@@ -1,9 +1,9 @@
-import LogoMG from '../../Components/LogoMG/LogoMG'
-import Task from '../../Components/Task/Task'
-import './About.css'
-import '../../Components/Styles/AnimIn.css'
-import Contact from '../../Components/Contact/Contact'
-import PlanetBG from '../../Components/PlanetBG/PlanetBG'
+import LogoMG from '../../Components/LogoMG/LogoMG';
+import Task from '../../Components/Task/Task';
+import './About.css';
+import '../../Components/Styles/AnimIn.css';
+import Contact from '../../Components/Contact/Contact';
+import PlanetBG from '../../Components/PlanetBG/PlanetBG';
 
 const About = () => {
   return (
@@ -33,15 +33,15 @@ const About = () => {
             using Link components
           </Task>
           <Task>
-            at least one route accepts a URL parameter, which is accessed using
-            useParams hook inside the corresponding component and used with a
-            specific purpose
+            use of useParams hook to access the parameters of the URL, returning
+            a specific element of json response
           </Task>
+          <Task> web responsive page </Task>
         </div>
         <Contact />
       </section>
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;

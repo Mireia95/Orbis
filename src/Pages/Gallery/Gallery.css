@@ -1,6 +1,6 @@
 .galleryChoose {
   z-index: 1;
-  color: var(--MA-colorSecondary);
+  color: var(--OR-colorSecondary);
   flex-direction: column;
   position: absolute;
   top: 50%;
@@ -11,7 +11,7 @@
 .galleryChoose > p {
   font-size: 14px;
   font-weight: 400;
-  margin-bottom: var(--MA-margin-xxl);
+  margin-bottom: var(--OR-margin-xxl);
 }
 
 .galleryChoose > a {
@@ -19,6 +19,6 @@
   font-size: 20px;
   text-align: center;
   font-weight: 400;
-  padding: var(--MA-padding-xs) var(--MA-padding-xxl);
+  padding: var(--OR-padding-xs) var(--OR-padding-xxl);
   margin-bottom: 20px;
 }

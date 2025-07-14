@@ -1,15 +1,15 @@
 .btn-link {
-  border-radius: var(--MA-border-radius-button);
-  font-family: var(--MA-fontSecondary);
-  padding: var(--MA-padding-xs) var(--MA-padding-m);
-  border: 1px solid var(--MA-colorSecondary);
+  border-radius: var(--OR-border-radius-button);
+  font-family: var(--OR-fontSecondary);
+  padding: var(--OR-padding-xs) var(--OR-padding-m);
+  border: 1px solid var(--OR-colorSecondary);
   background-color: transparent;
-  color: var(--MA-colorSecondary);
+  color: var(--OR-colorSecondary);
 }
 
 .primButt {
-  padding: var(--MA-padding-xs) var(--MA-padding-l);
+  padding: var(--OR-padding-xs) var(--OR-padding-l);
   font-size: 20px;
   background-color: transparent;
-  border: 2px solid var(--MA-colorSecondary);
+  border: 2px solid var(--OR-colorSecondary);
 }

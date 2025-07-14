@@ -3,8 +3,8 @@
 }
 .logo > a {
   justify-content: flex-start;
-  gap: var(--MA-gap-xs);
-  color: var(--MA-colorTextPrimary);
+  gap: var(--OR-gap-xs);
+  color: var(--OR-colorTextPrimary);
   font-weight: 500;
 }
 .logo > a > img {

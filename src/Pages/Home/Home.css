@@ -1,8 +1,8 @@
 h1 {
-  font-family: var(--MA-fontPrimary);
+  font-family: var(--OR-fontPrimary);
   font-size: 130px;
   font-weight: 400;
-  color: var(--MA-colorSecondary);
+  color: var(--OR-colorSecondary);
 }
 
 .home {
@@ -14,12 +14,12 @@ h1 {
 }
 
 .primButt {
-  padding: var(--MA-padding-xs) var(--MA-padding-l);
+  padding: var(--OR-padding-xs) var(--OR-padding-l);
   font-size: 20px;
-  color: var(--MA-colorSecondary);
+  color: var(--OR-colorSecondary);
   background-color: transparent;
-  border: 2px solid var(--MA-colorSecondary);
-  border-radius: var(--MA-border-radius-button);
+  border: 2px solid var(--OR-colorSecondary);
+  border-radius: var(--OR-border-radius-button);
 }
 
 .infoGalaxy {
@@ -44,7 +44,7 @@ h1 {
 @media (max-width: 600px) {
   h1 {
     font-size: 70px;
-    margin-bottom: var(--MA-margin-s);
+    margin-bottom: var(--OR-margin-s);
   }
   .home {
     top: 0;

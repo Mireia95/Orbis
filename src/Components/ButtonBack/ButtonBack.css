@@ -8,11 +8,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3px var(--MA-padding-m);
+  padding: 3px var(--OR-padding-m);
   gap: 10px;
   width: fit-content;
   position: absolute;
   left: 0;
+  background-color: var(--OR-colorPrimary);
 }
 
 @media (max-width: 750px) {
@@ -20,7 +21,7 @@
     display: none;
   }
   .back {
-    padding: 8px var(--MA-padding-s);
+    padding: 8px var(--OR-padding-s);
     left: -20px;
     top: 0px;
   }

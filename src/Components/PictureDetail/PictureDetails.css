@@ -3,7 +3,7 @@
   min-height: 500px;
   justify-content: center;
   flex-direction: column;
-  gap: var(--MA-gap-m);
+  gap: var(--OR-gap-m);
   z-index: 1;
 }
 
@@ -21,18 +21,18 @@
 }
 
 .date {
-  border: 1px solid var(--MA-colorSecondary);
-  padding: var(--MA-padding-xs) var(--MA-padding-s);
+  border: 1px solid var(--OR-colorSecondary);
+  padding: var(--OR-padding-xs) var(--OR-padding-s);
   font-size: 14px;
-  border-radius: var(--MA-border-radius);
+  border-radius: var(--OR-border-radius);
 }
 
 .imgDetail {
-  border: 1px solid var(--MA-colorSecondary);
-  border-radius: var(--MA-border-radius);
+  border: 1px solid var(--OR-colorSecondary);
+  border-radius: var(--OR-border-radius);
   overflow: hidden;
-  margin: 0 var(--MA-margin-m);
-  margin-bottom: var(--MA-margin-xxl);
+  margin: 0 var(--OR-margin-m);
+  margin-bottom: var(--OR-margin-xxl);
   width: 90%;
   min-width: 400px;
   min-height: 180px;
@@ -57,12 +57,12 @@
   #pictureDetail > div > h3 {
     max-width: 250px;
     text-align: center;
-    margin-top: var(--MA-margin-l);
+    margin-top: var(--OR-margin-l);
   }
 }
 
 @media (max-width: 600px) {
   #pictureDetail {
-    margin-top: var(--MA-margin-m);
+    margin-top: var(--OR-margin-m);
   }
 }

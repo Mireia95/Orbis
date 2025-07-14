@@ -5,11 +5,11 @@
 }
 
 .galaxies-photos {
-  margin-top: var(--MA-margin-xxl);
-  margin-bottom: var(--MA-margin-xxl);
-  border-radius: var(--MA-border-radius);
+  margin-top: var(--OR-margin-xxl);
+  margin-bottom: var(--OR-margin-xxl);
+  border-radius: var(--OR-border-radius);
   width: 80%;
   flex-wrap: wrap;
-  gap: var(--MA-gap-xl);
+  gap: var(--OR-gap-xl);
   justify-content: center;
 }

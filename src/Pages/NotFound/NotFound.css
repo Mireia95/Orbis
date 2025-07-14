@@ -1,8 +1,8 @@
 .notFound {
   margin-top: 20svh;
   flex-direction: column;
-  color: var(--MA-colorTextPrimary);
-  font-family: var(--MA-fontSecondary);
+  color: var(--OR-colorTextPrimary);
+  font-family: var(--OR-fontSecondary);
 }
 
 .notFound > h2 {

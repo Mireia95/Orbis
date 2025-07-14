@@ -2,14 +2,14 @@ nav,
 ul {
   width: 100%;
   justify-content: flex-end;
-  gap: var(--MA-gap-m);
+  gap: var(--OR-gap-m);
 }
 .nav-link {
-  color: var(--MA-colorTextPrimary);
-  padding: var(--MA-padding-xs);
+  color: var(--OR-colorTextPrimary);
+  padding: var(--OR-padding-xs);
   font-size: 16px;
 }
 
 .nav-link.active {
-  border-bottom: 2px solid var(--MA-colorTextPrimary);
+  border-bottom: 2px solid var(--OR-colorTextPrimary);
 }

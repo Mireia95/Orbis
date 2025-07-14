@@ -1,12 +1,12 @@
 .extLink {
-  border-radius: var(--MA-border-radius-button);
-  font-family: var(--MA-fontSecondary);
-  padding: var(--MA-padding-xs) var(--MA-padding-m);
-  border: 1px solid var(--MA-colorSecondary);
-  background-color: var(--MA-colorPrimary);
-  color: var(--MA-colorSecondary);
+  border-radius: var(--OR-border-radius-button);
+  font-family: var(--OR-fontSecondary);
+  padding: var(--OR-padding-xs) var(--OR-padding-m);
+  border: 1px solid var(--OR-colorSecondary);
+  background-color: var(--OR-colorPrimary);
+  color: var(--OR-colorSecondary);
   justify-content: center;
-  gap: var(--MA-gap-s);
+  gap: var(--OR-gap-s);
   width: fit-content;
 }
 

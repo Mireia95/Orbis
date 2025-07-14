@@ -3,43 +3,43 @@
 
 :root {
   /* colors */
-  --MA-colorPrimary: #070604;
-  --MA-colorPrimaryAlpha: rgba(7, 6, 4, 0.8);
-  --MA-colorSecondary: #fff8f8;
-  --MA-colorSecondaryHover: #1d1d1d;
+  --OR-colorPrimary: #070604;
+  --OR-colorPrimaryAlpha: rgba(7, 6, 4, 0.8);
+  --OR-colorSecondary: #fff8f8;
+  --OR-colorSecondaryHover: #1d1d1d;
 
-  --MA-colorTextPrimary: var(--MA-colorSecondary);
-  --MA-colorBG: var(--MA-colorPrimary);
-  --MA-colorBGAlhpa: var(--MA-colorPrimaryAlpha);
+  --OR-colorTextPrimary: var(--OR-colorSecondary);
+  --OR-colorBG: var(--OR-colorPrimary);
+  --OR-colorBGAlhpa: var(--OR-colorPrimaryAlpha);
 
   /* font */
-  --MA-fontPrimary: 'Orbitron', sans-serif;
-  --MA-fontSecondary: 'Poppins', sans-serif;
+  --OR-fontPrimary: 'Orbitron', sans-serif;
+  --OR-fontSecondary: 'Poppins', sans-serif;
 
   /* margins */
-  --MA-margin-xs: 8px;
-  --MA-margin-s: 16px;
-  --MA-margin-m: 24px;
-  --MA-margin-l: 32px;
-  --MA-margin-xl: 40px;
-  --MA-margin-xxl: 48px;
+  --OR-margin-xs: 8px;
+  --OR-margin-s: 16px;
+  --OR-margin-m: 24px;
+  --OR-margin-l: 32px;
+  --OR-margin-xl: 40px;
+  --OR-margin-xxl: 48px;
 
-  --MA-padding-xs: 8px;
-  --MA-padding-s: 16px;
-  --MA-padding-m: 24px;
-  --MA-padding-l: 32px;
-  --MA-padding-xl: 40px;
-  --MA-padding-xxl: 48px;
+  --OR-padding-xs: 8px;
+  --OR-padding-s: 16px;
+  --OR-padding-m: 24px;
+  --OR-padding-l: 32px;
+  --OR-padding-xl: 40px;
+  --OR-padding-xxl: 48px;
 
-  --MA-gap-xs: 8px;
-  --MA-gap-s: 16px;
-  --MA-gap-m: 24px;
-  --MA-gap-l: 32px;
-  --MA-gap-xl: 40px;
-  --MA-gap-xxl: 48px;
+  --OR-gap-xs: 8px;
+  --OR-gap-s: 16px;
+  --OR-gap-m: 24px;
+  --OR-gap-l: 32px;
+  --OR-gap-xl: 40px;
+  --OR-gap-xxl: 48px;
 
-  --MA-border-radius: 8px;
-  --MA-border-radius-button: 8px;
+  --OR-border-radius: 8px;
+  --OR-border-radius-button: 8px;
 
   --OR-header-height: 8svh;
 }
@@ -51,20 +51,20 @@
   text-decoration: none;
   box-sizing: border-box;
   border: none;
-  font-family: var(--MA-fontSecondary);
+  font-family: var(--OR-fontSecondary);
 }
 
 body,
 #root {
   min-height: 100svh;
-  background: var(--MA-colorBG);
+  background: var(--OR-colorBG);
 }
 
 main {
   min-height: 90svh;
   width: 100%;
   flex-direction: column;
-  padding-top: var(--MA-padding-xxl);
+  padding-top: var(--OR-padding-xxl);
 }
 
 .flex {
@@ -78,7 +78,7 @@ a {
 }
 
 h3 {
-  color: var(--MA-colorSecondary);
+  color: var(--OR-colorSecondary);
   font-size: 25px;
   font-weight: normal;
 }
@@ -86,7 +86,7 @@ h3 {
 p,
 button,
 a {
-  color: var(--MA-colorSecondary);
+  color: var(--OR-colorSecondary);
 }
 
 @media (max-width: 600px) {

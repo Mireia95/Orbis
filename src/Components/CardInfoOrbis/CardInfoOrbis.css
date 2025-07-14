@@ -1,15 +1,15 @@
 .cardInfoOrbis {
-  border-radius: var(--MA-border-radius);
+  border-radius: var(--OR-border-radius);
   flex-direction: column;
   justify-content: center;
   font-weight: 400;
   gap: 5px;
   min-width: 215px;
   max-width: 250px;
-  color: var(--MA-colorTextPrimary);
-  border: 1px solid var(--MA-colorSecondary);
+  color: var(--OR-colorTextPrimary);
+  border: 1px solid var(--OR-colorSecondary);
   padding: 16px 0;
-  background-color: var(--MA-colorBGAlhpa);
+  background-color: var(--OR-colorBGAlhpa);
 }
 
 .cardInfoOrbis > h3 {

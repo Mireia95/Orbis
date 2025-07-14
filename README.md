@@ -37,6 +37,8 @@ Orbis is a project to practice building and organizing React components. It uses
 
 ### Concepts and tools practiced
 
+- **Design:** Fully designed by me using Figma.
+
 - **React Router DOM**: used to handle routing in the application. It allows navigation between different pages or views without reloading the whole page
 
 - **useState hook**: used to create and manage local state inside my components, so the UI can update dynamically when the state changes
@@ -44,3 +46,11 @@ Orbis is a project to practice building and organizing React components. It uses
 - **useEffect hook**: used to perform side effects in components, like fetching data from the NASA API. It also helped me run code only once when a component mounts, or when certain dependencies change.
 
 - **useLocation hook**: used to get information about the current URL. This was helpful to render components conditionally based on the current path, especially when I had components used in multiple routes.
+
+#### Contact
+
+mireia95.granzotto@gmail.com
+
+#### License
+
+© 2025 Mireia Granzotto. All rights reserved.

@@ -25,7 +25,7 @@ npm install
 <br>
 <br>
 
-## Descripción
+## Description
 
 Orbis is a project to practice building and organizing React components. It uses NASA’s public API to fetch stunning space images.
 

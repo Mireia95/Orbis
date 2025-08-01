@@ -18,8 +18,9 @@ h1 {
   font-size: 20px;
   color: var(--OR-colorSecondary);
   background-color: var(--OR-colorPrimaryAlpha);
-  border: 2px solid var(--OR-colorSecondary);
+  margin: 5px;
   border-radius: var(--OR-border-radius-button);
+  display: block;
 }
 
 .infoGalaxy {

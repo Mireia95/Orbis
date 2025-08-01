@@ -5,17 +5,20 @@ import '../../Components/Styles/AnimIn.css'
 import PlanetBG from '../../Components/PlanetBG/PlanetBG'
 import ButtonLink from '../../Components/ButtonLink/ButtonLink'
 import { Meteors } from '@/Components/magicui/meteors'
+import { ShinyButton } from '@/Components/magicui/shiny-button'
 
 const Home = () => {
   return (
     <>
       <div className='home flex animInTitle'>
         <h1> ORBIS</h1>
-        <ButtonLink
-          text='Show gallery'
-          path='/gallery-galaxy'
-          primButt={true}
-        ></ButtonLink>
+        <ShinyButton className='primButtShiny'>
+          <ButtonLink
+            text='Show gallery'
+            path='/gallery-galaxy'
+            primButt={true}
+          ></ButtonLink>
+        </ShinyButton>
       </div>
       <div className='infoGalaxy flex'>
         <CardInfoOrbis

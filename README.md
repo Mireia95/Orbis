@@ -25,6 +25,22 @@ npm install
 <br>
 <br>
 
+## Used Libraries
+
+### Magic UI: https://magicui.design/docs/installation
+
+**Shiny Button**
+
+```bash
+npx shadcn@latest add "https://magicui.design/r/shiny-button"
+```
+
+**Meteors**
+
+```bash
+npx shadcn@latest add "https://magicui.design/r/meteors"
+```
+
 ## Description
 
 Orbis is a project to practice building and organizing React components. It uses NASA’s public API to fetch stunning space images.

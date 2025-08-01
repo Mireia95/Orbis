@@ -1,9 +1,9 @@
-import LogoMG from '../../Components/LogoMG/LogoMG';
-import Task from '../../Components/Task/Task';
-import './About.css';
-import '../../Components/Styles/AnimIn.css';
-import Contact from '../../Components/Contact/Contact';
-import PlanetBG from '../../Components/PlanetBG/PlanetBG';
+import LogoMG from '../../Components/LogoMG/LogoMG'
+import Task from '../../Components/Task/Task'
+import './About.css'
+import '../../Components/Styles/AnimIn.css'
+import Contact from '../../Components/Contact/Contact'
+import PlanetBG from '../../Components/PlanetBG/PlanetBG'
 
 const About = () => {
   return (
@@ -20,17 +20,19 @@ const About = () => {
           </p>
         </div>
         <div className='tasks flex'>
+          <Task>fully designed by me using Figma</Task>
           <Task>
-            use of useState hook to manage and store component state in a clear
-            and logical way
-          </Task>
-          <Task> use of useEffect hook to handle side effects</Task>
-          <Task>
-            a request to an external API to fetch and display dynamic data
-          </Task>
-          <Task>
+            {' '}
             implementation of React Router, with declared routes and navigation
-            using Link components
+            using Link components{' '}
+          </Task>
+          <Task>
+            use useState hook to create and manage local state inside my
+            components, so the UI can update dynamically when the state changes
+          </Task>
+          <Task>
+            use useEffect hook to create and manage local state inside my
+            components, so the UI can update dynamically when the state changes
           </Task>
           <Task>
             use of useParams hook to access the parameters of the URL, returning
@@ -41,7 +43,7 @@ const About = () => {
         <Contact />
       </section>
     </>
-  );
-};
+  )
+}
 
-export default About;
+export default About

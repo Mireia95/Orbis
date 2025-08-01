@@ -3,7 +3,7 @@ header {
   top: 0;
   font-family: var(--OR-fontSecondary);
   background-color: var(--OR-colorPrimary);
-  z-index: 10;
+  z-index: 15;
 }
 
 header.header-desktop {

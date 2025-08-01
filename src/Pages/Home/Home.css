@@ -17,7 +17,7 @@ h1 {
   padding: var(--OR-padding-xs) var(--OR-padding-l);
   font-size: 20px;
   color: var(--OR-colorSecondary);
-  background-color: transparent;
+  background-color: var(--OR-colorPrimaryAlpha);
   border: 2px solid var(--OR-colorSecondary);
   border-radius: var(--OR-border-radius-button);
 }
@@ -38,6 +38,10 @@ h1 {
   .home {
     top: 40%;
     left: 50%;
+  }
+
+  .infoGalaxy {
+    bottom: 5%;
   }
 }
 

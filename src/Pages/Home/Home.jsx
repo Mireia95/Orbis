@@ -4,11 +4,11 @@ import '../../Components/Styles/AnimInH1.css'
 import '../../Components/Styles/AnimIn.css'
 import PlanetBG from '../../Components/PlanetBG/PlanetBG'
 import ButtonLink from '../../Components/ButtonLink/ButtonLink'
+import { Meteors } from '@/Components/magicui/meteors'
 
 const Home = () => {
   return (
     <>
-      {/*      <PlanetBG opacity={1} /> */}
       <div className='home flex animInTitle'>
         <h1> ORBIS</h1>
         <ButtonLink

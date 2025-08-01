@@ -1,5 +1,4 @@
 .galleryChoose {
-  z-index: 1;
   color: var(--OR-colorSecondary);
   flex-direction: column;
   position: absolute;
@@ -21,4 +20,5 @@
   font-weight: 400;
   padding: var(--OR-padding-xs) var(--OR-padding-xxl);
   margin-bottom: 20px;
+  background: var(--OR-colorPrimaryAlpha);
 }

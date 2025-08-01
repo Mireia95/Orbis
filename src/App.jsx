@@ -10,9 +10,12 @@ import PictureDetails from './Components/PictureDetail/PictureDetails'
 import GalleryPicture from './Components/GalleryPicture/GalleryPicture'
 import PlanetBG from './Components/PlanetBG/PlanetBG'
 
+import MeteorsBG from './Components/MeteorsBG/Meteors'
+
 const App = () => {
   return (
     <>
+      <MeteorsBG />
       <PlanetBG />
       <Header />
       <main className='flex'>

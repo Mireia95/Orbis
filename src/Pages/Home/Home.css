@@ -26,12 +26,12 @@ h1 {
 .infoGalaxy {
   width: 80%;
   position: absolute;
-  left: 50%;
+  left: 55%;
   transform: translateX(-50%);
   bottom: 10%;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 60px;
 }
 
 /* MEDIA QUERY */
@@ -42,7 +42,9 @@ h1 {
   }
 
   .infoGalaxy {
-    bottom: 5%;
+    left: 50%;
+    bottom: 10%;
+    gap: 40px;
   }
 }
 
@@ -65,11 +67,11 @@ h1 {
   }
 }
 
-@media (max-height: 800px) {
+@media (max-height: 850px) and (max-width: 1000px) {
   .infoGalaxy {
     width: 100%;
     padding: 8px;
     gap: 16px;
-    bottom: 16px;
+    bottom: 5%;
   }
 }

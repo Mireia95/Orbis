@@ -1,18 +1,20 @@
 import { useLocation } from 'react-router-dom'
-import './Meteors.css'
-import { Meteors } from '@/components/magicui/meteors'
-const MeteorsBG = () => {
+import './Particles.css'
+
+import { Particles } from '../magicui/particles'
+
+const ParticlesBG = () => {
   const location = useLocation()
   const home = location.pathname === '/'
   return (
     <>
       {home && (
-        <div className='meteors'>
-          <Meteors />
+        <div className='particles'>
+          <Particles />
         </div>
       )}
     </>
   )
 }
 
-export default MeteorsBG
+export default ParticlesBG

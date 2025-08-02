@@ -2,9 +2,9 @@ import CardInfoOrbis from '../../Components/CardInfoOrbis/CardInfoOrbis'
 import './Home.css'
 import '../../Components/Styles/AnimInH1.css'
 import '../../Components/Styles/AnimIn.css'
-import PlanetBG from '../../Components/PlanetBG/PlanetBG'
+
 import ButtonLink from '../../Components/ButtonLink/ButtonLink'
-import { Meteors } from '@/Components/magicui/meteors'
+
 import { ShinyButton } from '@/Components/magicui/shiny-button'
 
 const Home = () => {

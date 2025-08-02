@@ -1,7 +1,7 @@
 # Orbis
 
 <div align="center">
-<img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1752496004/Orbis/Orbis_Mockup_dd7avr.png" alt="desktop and mobile preview" />
+<img src="https://res.cloudinary.com/dr2vohk2z/image/upload/v1754137254/Orbis/Orbispreview_tinnnk.png" alt="desktop and mobile preview" />
 </div>
 
 ## Project Link:
@@ -35,10 +35,10 @@ npm install
 npx shadcn@latest add "https://magicui.design/r/shiny-button"
 ```
 
-**Meteors**
+**Particles**
 
 ```bash
-npx shadcn@latest add "https://magicui.design/r/meteors"
+npx shadcn@latest add "https://magicui.design/r/particles"
 ```
 
 ## Description

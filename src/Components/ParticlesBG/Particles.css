@@ -1,0 +1,11 @@
+.particles {
+  position: absolute;
+  height: 100svh;
+  width: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.particles > div {
+  height: 100%;
+}

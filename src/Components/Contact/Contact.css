@@ -12,3 +12,12 @@
   justify-content: center;
   gap: var(--OR-gap-s);
 }
+
+.contact > div > a {
+  width: 70px;
+  transition: all 0.3s;
+}
+
+.contact > div > a:hover {
+  transform: scale(1.05);
+}

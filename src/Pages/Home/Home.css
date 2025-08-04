@@ -13,14 +13,19 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-.primButt {
+.primButtShiny {
+  border: 1px solid var(--OR-colorSecondary);
   padding: var(--OR-padding-xs) var(--OR-padding-l);
-  font-size: 20px;
   color: var(--OR-colorSecondary);
   background-color: var(--OR-colorPrimaryAlpha);
   margin: 5px;
   border-radius: var(--OR-border-radius-button);
   display: block;
+}
+
+.primButtShiny > span {
+  font-family: var(--OR-fontSecondary);
+  font-size: 20px;
 }
 
 .infoGalaxy {

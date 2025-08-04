@@ -12,12 +12,13 @@ const Home = () => {
     <>
       <div className='home flex animInTitle'>
         <h1> ORBIS</h1>
-        <ShinyButton className='primButtShiny'>
-          <ButtonLink
+        <ShinyButton className='primButtShiny btn-link' to='/gallery-galaxy'>
+          Show gallery
+          {/*      <ButtonLink
             text='Show gallery'
             path='/gallery-galaxy'
             primButt={true}
-          ></ButtonLink>
+          ></ButtonLink> */}
         </ShinyButton>
       </div>
       <div className='infoGalaxy flex'>

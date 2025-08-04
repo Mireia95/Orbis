@@ -1,4 +1,4 @@
-import './Contact.css';
+import './Contact.css'
 
 const Contact = () => {
   return (
@@ -7,7 +7,7 @@ const Contact = () => {
       <div className='flex'>
         <a href='https://www.linkedin.com/in/mireia-granzotto' target='_blank'>
           <img
-            src='https://res.cloudinary.com/dr2vohk2z/image/upload/v1750401362/Marsexplorer/LinkedIn_b471jh.png'
+            src='https://res.cloudinary.com/dr2vohk2z/image/upload/v1754312520/Orbis/linkedin_rp4hwx.png'
             alt='linkedin'
           />
         </a>
@@ -19,7 +19,7 @@ const Contact = () => {
         </a>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

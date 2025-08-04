@@ -14,7 +14,7 @@ h1 {
 }
 
 .primButtShiny {
-  border: 1px solid var(--OR-colorSecondary);
+  border: 2px solid var(--OR-colorSecondary);
   padding: var(--OR-padding-xs) var(--OR-padding-l);
   color: var(--OR-colorSecondary);
   background-color: var(--OR-colorPrimaryAlpha);

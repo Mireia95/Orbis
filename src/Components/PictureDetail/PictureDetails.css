@@ -82,3 +82,10 @@
     margin-top: var(--OR-margin-m);
   }
 }
+
+@media (max-height: 950px) {
+  #pictureDetail .imgDetail {
+    max-height: 500px;
+    width: auto;
+  }
+}

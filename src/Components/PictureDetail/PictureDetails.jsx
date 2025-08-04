@@ -36,7 +36,11 @@ const PictureDetails = () => {
           <p>{picture.data[0].description_508} </p>
           <p className='date'>{picture.data[0].date_created.slice(0, 10)}</p>
           <div className='imgDetail'>
-            <img src={picture.links[2].href} alt='test'></img>
+            {console.log(picture.links[1].href)}
+            <img
+              src={picture.links[2]?.href || picture.links[1]?.href}
+              alt='test'
+            ></img>
           </div>
         </>
       )}

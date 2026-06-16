@@ -41,6 +41,12 @@ npx shadcn@latest add "https://magicui.design/r/shiny-button"
 npx shadcn@latest add "https://magicui.design/r/particles"
 ```
 
+**Hamburgues menu for mobile**
+
+```bash
+npm install hamburger-react
+```
+
 ## Description
 
 Orbis is a project to practice building and organizing React components. It uses NASA’s public API to fetch stunning space images.
